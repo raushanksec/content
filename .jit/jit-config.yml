@@ -1,0 +1,18 @@
+applications:
+- api_domain: api.dkj.clo
+  application_name: lkjll
+  authentication_mode: non-authenticated
+  exclude_paths: []
+  target_url: https://storage.ksec.ai/open.json
+  type: api
+deployment:
+  environments:
+  - kjk
+plan_items:
+  item-api-security:
+    deployment:
+      configuration:
+      - lkjll
+      tags:
+      - kjk
+      trigger: deployment
